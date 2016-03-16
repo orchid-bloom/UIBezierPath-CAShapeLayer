@@ -15,6 +15,7 @@
 		B6F4FD1D1C99394900C88F0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6F4FD1B1C99394900C88F0E /* LaunchScreen.storyboard */; };
 		B6F4FD281C99394900C88F0E /* UIBezierPathCAShapeLayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F4FD271C99394900C88F0E /* UIBezierPathCAShapeLayerTests.m */; };
 		B6F4FD331C99394900C88F0E /* UIBezierPathCAShapeLayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F4FD321C99394900C88F0E /* UIBezierPathCAShapeLayerUITests.m */; };
+		B6F4FD421C99397F00C88F0E /* BezierPathView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F4FD411C99397F00C88F0E /* BezierPathView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		B6F4FD2E1C99394900C88F0E /* UIBezierPathCAShapeLayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIBezierPathCAShapeLayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6F4FD321C99394900C88F0E /* UIBezierPathCAShapeLayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIBezierPathCAShapeLayerUITests.m; sourceTree = "<group>"; };
 		B6F4FD341C99394900C88F0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6F4FD401C99397F00C88F0E /* BezierPathView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierPathView.h; sourceTree = "<group>"; };
+		B6F4FD411C99397F00C88F0E /* BezierPathView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierPathView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				B6F4FD111C99394900C88F0E /* AppDelegate.m */,
 				B6F4FD131C99394900C88F0E /* ViewController.h */,
 				B6F4FD141C99394900C88F0E /* ViewController.m */,
+				B6F4FD401C99397F00C88F0E /* BezierPathView.h */,
+				B6F4FD411C99397F00C88F0E /* BezierPathView.m */,
 				B6F4FD161C99394900C88F0E /* Main.storyboard */,
 				B6F4FD191C99394900C88F0E /* Assets.xcassets */,
 				B6F4FD1B1C99394900C88F0E /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6F4FD421C99397F00C88F0E /* BezierPathView.m in Sources */,
 				B6F4FD151C99394900C88F0E /* ViewController.m in Sources */,
 				B6F4FD121C99394900C88F0E /* AppDelegate.m in Sources */,
 				B6F4FD0F1C99394900C88F0E /* main.m in Sources */,
